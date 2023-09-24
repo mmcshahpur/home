@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>St. Magdalene Catholic Mission | Shahpur</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+  <script>
+    if (window.history.replaceState) {
+      window.history.replaceState(null, null, window.location.href);
+    }
+  </script>
+
+  <script>
+    var countDownDate1 = new Date("Dec 24, 2021 22:00:00").getTime();
+    var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate1 - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("countdown1").innerHTML = days + " Days " + hours + "h " +
+        minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown1").innerHTML = "Mery Christmas ALL OF YOU !";
+      }
+    }, 1000);
+  </script>
+
+  <script>
+    var countDownDate2 = new Date("Jan 1, 2022 00:00:00").getTime();
+    var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate2 - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("countdown2").innerHTML = days + " Days " + hours + "h " +
+        minutes + "m " + seconds + "s ";
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown2").innerHTML = "Happy New Year ALL OF YOU";
+      }
+    }, 1000);
+  </script>
+
+  <!-- =======================================================
+  * Template Name: eBusiness - v4.6.0
+  * Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+      <div class="logo">
+        <h1><a href="/"><span>St.</span> Magdalene Catholic Mission</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="/"><img src="assets/img/logo.png" alt="" class="img-fluid"></a> -->
+      </div>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#mass">Mass Schedule</a></li>
+          <li><a class="nav-link scrollto" href="#events">Events</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+
+          <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link scrollto" href="/RequestForPrayerOrMass">Request for Prayer/Mass</a></li>
+              <li><a class="nav-link scrollto" href="#contact">Gallary</a></li>
+              <!-- <li><a href="blog.html">Activities</a></li> -->
+            </ul>
+          </li>
+
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <ol class="carousel-indicators"></ol><br>
+        <div class="carousel-inner" role="listbox">
+          <!-- <%- include('partials/messages') %> -->
+          <div class="carousel-item active">
+            <!-- style="background-image: url(assets/img/hero-carousel/1.jpg)" -->
+            <video autoplay muted loop id="myVideo">
+              <!-- <source src="assets/img/about/main.jpg" type="image/jpg"> -->
+            </video>
+            <div class="carousel-container">
+              <div class="container">
+                <!-- <%- include('partials/messages.ejs') %> -->
+                <h2 class="animate__animated animate__fadeInDown">Welcome to</h2>
+                <p class="animate__animated animate__fadeInUp">St. Mary Magdalene Church <br>- Shahpur </p>
+                <h6 class="text-white-50 mx-auto mt-2 mb-5 animate__animated animate__fadeInUp"> “तुम्हे शांति मिले!” <sub><i>(यूहन्ना 20:19)</i></sub> <br> 1947 </h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <div id="about" class="about-area area-padding">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="well-left">
+              <div class="single-well">
+                <img src="assets/img/about/mmcshahpur.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12">
+            <div class="well-middle">
+              <div class="single-well">
+
+                <h4 class="sec-head">About</h4>
+                <table>
+                  <tr>
+                    <td>Parish Priest</td>
+                    <td>: </td>
+                    <td>&ensp;Fr. Vijay Bhaskar Bojja <i class="fas fa-check-circle" style="color:#3498DB"></i></td>
+                  </tr>
+                </table>
+                <p>
+                  <br>
+                  St. Mary Magdalene Church is a Roman Catholic church in Shahpur under the Diocese of Buxar (Bihar). <br>
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>Founder</td>
+                      <td>: </td>
+                      <td>&ensp;Fr. Nicolas J. Pollard (SJ)</td>
+                    </tr>
+                    <tr>
+                      <td>Established</td>
+                      <td>: </td>
+                      <td>&ensp;1947 (74 Years Old) </td>
+                    </tr>
+                  </tbody>
+                </table>
+                </p>
+                <div class="suscribe-text text-center">
+                  <a class="sus-btn" href="about.html">Know More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <div id="mass" class="services-area area-padding">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline services-head text-center">
+              <h2>MASS SCHEDULE</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Days</th>
+                <th scope="col">Time</th>
+                <th scope="col">Holy Mass</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Sunday</td>
+                <td>8:30 AM</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Monday</td>
+                <td>6:00 AM (Not Confirm)</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Tuesday</td>
+                <td>6:00 AM (Not Confirm)</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>6:00 AM (Not Confirm)</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>6:00 AM (Not Confirm)</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>6:00 AM (Not Confirm)</td>
+                <td>Yes</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>6:00 AM (Not Confirm)</td>
+                <td>Yes</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div><!-- End Services Section -->
+
+    <!-- ======= Blog Section ======= -->
+    <div id="events" class="blog-area">
+      <div class="blog-inner area-padding">
+        <div class="blog-overly"></div>
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-headline text-center">
+                <h2>Events</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Start Left Blog -->
+            फा. पोलार्ड की प्रतिमा की स्थापना |
+            <!-- <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="single-blog">
+                <div class="single-blog-img">
+                  <img src="assets/img/blog/1.jpg" alt="" class="imgresize">
+                </div>
+                <div class="blog-meta">
+                  <span class="date-type" style="float:left;"><i class="fa fa-calendar"></i> 10:00 PM on 24 Dec 2021 </span>
+                  <spam style="float:right;"><i class="fas fa-clock"></i> <i id="countdown1"></i></spam> <br>
+                </div>
+                <div class="blog-text" style="text-align:center;">
+                  <h4>
+                    <u>Christimas Eve</u><br>
+                  </h4>Christmas is an annual festival commemorating the birth of Jesus Christ, observed primarily on December 25 as a religious and cultural celebration among billions of people around the world.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="single-blog">
+                <div class="single-blog-img">
+                  <img class="imgresize" src="assets/img/about/2022.png" alt="">
+                </div>
+                <div class="blog-meta">
+                  <span class="date-type" style="float:left;"><i class="fa fa-calendar"></i> 12:00 AM on 1 Jan 2022 </span>
+                  <spam style="float:right;"><i class="fas fa-clock"></i> <i id="countdown2"></i></spam> <br>
+                </div>
+                <div class="blog-text" style="text-align:center;">
+                  <h4>
+                    <u>New Year Era</u><br>
+                  </h4>
+                  New Year is the time or day at which a new calendar year begins and the calendar's year count increments by one. Many cultures celebrate the event in some manner. In the Gregorian calendar, the most widely used calendar system
+                  today, New Year occurs on January 1.
+                  <p style="text-align:left;"></p>
+                </div>
+              </div>
+            </div> -->
+            <!-- End Left Blog-->
+            <!-- Start Left Blog -->
+
+
+            <!--
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="single-blog">
+                <div class="single-blog-img">
+                  <a href="blog.html">
+                    <img src="assets/img/blog/3.jpg" alt="">
+                  </a>
+                </div>
+                <div class="blog-meta">
+                  <span class="comments-type">
+                    <i class="fa fa-comment-o"></i>
+                    <a href="#">10 comments</a>
+                  </span>
+                  <span class="date-type">
+                    <i class="fa fa-calendar"></i>2016-03-05 / 09:10:16
+                  </span>
+                </div>
+                <div class="blog-text">
+                  <h4>
+                    <a href="blog.html">Lorem ipsum dolor sit amet</a>
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.
+                  </p>
+                </div>
+                <span>
+                  <a href="blog.html" class="ready-btn">Read more</a>
+                </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div> -->
+            <!-- End Blog Section -->
+
+            <!-- ======= Suscribe Section ======= -->
+            <!-- <div class="suscribe-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
+            <div class="suscribe-text text-center">
+              <h3>Welcome to St</h3>
+              <a class="sus-btn" href="#">Get A quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+            <!-- End Suscribe Section -->
+
+            <!-- ======= Contact Section ======= -->
+            <div id="contact" class="contact-area">
+              <div class="contact-inner area-padding">
+                <div class="contact-overly"></div>
+                <div class="container ">
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                      <div class="section-headline text-center">
+                        <h2>Contact us</h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+
+                    <!-- Start Google Map -->
+                    <div class="col-md-12">
+                      <!-- Start Map -->
+                      <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.5758450053195!2d84.39289371491203!3d25.58577462210447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399283b53099e6db%3A0xcb00f749970e7525!2sSt.%20Mary%20Magdalene%20Church%2CShahpur%20(Chhalka)!5e0!3m2!1sen!2sin!4v1636644915316!5m2!1sen!2sin"
+                        width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+                      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.5758450053195!2d84.39289371491203!3d25.58577462210447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399283b53099e6db%3A0xcb00f749970e7525!2sSt.%20Mary%20Magdalene%20Church%2CShahpur%20(Chhalka)!5e0!3m2!1sen!2sin!4v1636644915316!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+              <! End Map -->
+                    </div>
+                    <!-- End Google Map -->
+
+                    <!-- Start  contact -->
+                    <!-- <div class="col-md-6">
+                      <div class="form contact-form">
+                        <form action="/" method="post" role="form">
+                          <div class="form-group">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                          </div>
+                          <div class="form-group mt-3">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                          </div>
+                          <div class="form-group mt-3">
+                            <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                          </div>
+                          <div class="form-group mt-3">
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                          </div><br>
+                          <div class="text-center"><button class=" btn btn-outline-dark " type="submit"> <i class="fa fa-paper-plane"></i> SEND MESSAGE </button></div>
+                        </form>
+                      </div>
+                    </div> -->
+                    <!-- End Left contact -->
+                  </div>
+                </div>
+              </div>
+            </div><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2><span>St. </span> Magdalene Catholic Mission</h2>
+                </div>
+
+                <p>On the wall behind the altar, there is a large painting depicting Resurrected Jesus Christ meeting Mary Magdalen.</p>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="https://t.me/mmcshahpur"><i class="bi bi-telegram"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/mmcshahpur"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="https://www.youtube.com/@mmcshahpur"><i class="bi bi-youtube"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-6">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <p>
+                  Open : <br>Daily 5:00 AM - 10:00 PM <br>Launced On : 20 Dec 2021
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Tel:</span> +91 1234567890</p>
+                  <p><span>Email:</span> contact2mmcshahpur@gmail.com</p>
+                  <p><span>Whatsapp Group:</span> <a href="https://chat.whatsapp.com/IM65AQSTwgoHs6ZknR7qG5" class="btn btn-success btn-sm"> &ensp;&ensp;&ensp;&ensp;<i class="fab fa-whatsapp"></i>&ensp;JOIN &ensp;&ensp;&ensp;&ensp;</a> </p>
+                  <p><span>Location:</span> Shahpur - 802165, Bihar, India</p>
+                  <!-- <p><span>Working Hours:</span> 9am-5pm</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <!-- <div class="col-md-4">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Instagram</h4>
+                <div class="flicker-img">
+                  <a href="#"><img src="assets/img/portfolio/1.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/2.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/3.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/4.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/5.jpg" alt=""></a>
+                  <a href="#"><img src="assets/img/portfolio/6.jpg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; <strong>St. Magdalene Catholic Mission, 2023</strong>.
+              </p>
+            </div>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
+            -->
+              Designed by <a href="https://bluewholepk.github.io/BlueWholePk/">BlueWholePk</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
