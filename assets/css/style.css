@@ -236,6 +236,7 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
   z-index: 997;
   transition: all 0.5s;
   background: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(60deg,black,rgb(53, 90, 96),black,black,black);
 }
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.8);
@@ -264,6 +265,8 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
   #header {
     height: 50px;
     background: rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(60deg,black,rgb(53, 90, 96),black,black,black);
+
   }
   #header .logo h1 {
     font-size: 20px;
@@ -341,6 +344,7 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
   opacity: 0;
   visibility: hidden;
   background: #fff;
+  background-color: rgb(152, 94, 224);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -357,7 +361,7 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
   font-size: 12px;
 }
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #3ec1d5;
+  color: #49e7ff;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -382,6 +386,7 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
+  
 }
 
 /**
@@ -429,14 +434,15 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
   bottom: 15px;
   left: 15px;
   padding: 10px 0;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: black;
   overflow-y: auto;
   transition: 0.3s;
 }
 .navbar-mobile a, .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0d2529;
+  color: white;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #3ec1d5;
@@ -452,7 +458,8 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  border-radius: 10px;
+  background-image: linear-gradient(60deg,rgb(81, 157, 138),rgb(93, 136, 167),rgb(253, 253, 253));
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 .navbar-mobile .dropdown ul li {
@@ -465,7 +472,7 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
   font-size: 12px;
 }
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #3ec1d5;
+  color: #49e7ff;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
@@ -477,9 +484,10 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
 #hero {
   width: 100%;
   height: 100vh;
-  background: #000;
+  /* background: #000; */
   overflow: hidden;
   position: relative;
+  background-image:radial-gradient(circle,white,white,rgb(173, 121, 69),black);
 }
 @media (max-height: 500px) {
   #hero {
@@ -500,7 +508,7 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
 }
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.0);
 }
 #hero .carousel-container {
   display: flex;
@@ -524,25 +532,47 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
 }
 #hero .container {
   text-align: center;
+  border-radius: 10px;
+
+  /* box-shadow: 0px 0px 10px white; */
+  /* border: 1px solid red; */
+  /* padding: 40px; */
+  /* background-color: rgba(0,0,0, 0.4); */
 }
 #hero h2 {
-  color: #fff;
+  color: black;
   margin-bottom: 20px;
-  font-size: 24px;
+  font-size: 2.8rem;
   font-weight: 700;
 }
 @media (max-width: 768px) {
   #hero h2 {
-    font-size: 20px;
+    font-size: 1.9rem;
     line-height: 1.2;
   }
 }
+
+#hero h6 {
+  color: rgb(58, 58, 58);
+  margin-bottom: 40px;
+  font-size: 1rem;
+  /* font-weight: 700; */
+}
+@media (max-width: 1024px) {
+  #hero h6 {
+    font-size: 1rem;
+    /* line-height: 1.2; */
+  }
+}
+
 #hero p {
   width: 80%;
-  font-size: 38px;
+  font-size: 3rem;
   line-height: 1.2;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: rgb(98, 82, 247);
+  text-shadow: 0px 0px 8px rgb(245, 253, 85);
+  
 }
 @media (min-width: 1024px) {
   #hero p {
@@ -551,7 +581,7 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
 }
 @media (max-width: 768px) {
   #hero p {
-    font-size: 28px;
+    font-size: 2rem;
     line-height: 1.2;
   }
 }
@@ -1335,12 +1365,17 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 30px;
+  border: 1px solid #3EC1D5;
 }
 
 .sus-btn:hover {
   background: #3EC1D5 none repeat scroll 0 0;
   border: 2px solid #fff;
   color: #fff;
+  /* border: 1px solid black; */
+  box-shadow: 0px 0px 8px black;
+  /* transition: sca; */
+  scale: 1.1;
 }
 
 /*--------------------------------------------------------------
