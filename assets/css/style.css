@@ -568,10 +568,10 @@ input, select, textarea, input[type=text], input[type=date], input[type=url], in
 #hero p {
   width: 80%;
   font-size: 3rem;
-  line-height: 1.2;
+  line-height: 1.5;
   margin: 0 auto 30px auto;
-  color: rgb(98, 82, 247);
-  text-shadow: 0px 0px 8px rgb(245, 253, 85);
+  color: rgb(255, 227, 103);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
   
 }
 @media (min-width: 1024px) {
@@ -2494,4 +2494,12 @@ span.email-notes {
         width:auto;
         height: 100%;
     }
+}
+.holyspirit{
+  width: 300px;
+}
+@media (max-width: 768px) {
+  .holyspirit {
+    width: 200px;
+  }
 }
